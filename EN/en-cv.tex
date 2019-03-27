@@ -15,115 +15,79 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-
-\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
-
-\usepackage[utf8x]{inputenc} % can be changed to utf8x
+\documentclass[letterpaper]{twentysecondcv}
+\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 
 \usepackage{fontawesome}
 
 
-%----------------------------------------------------------------------------------------
-%	 PERSONAL INFORMATION
-%----------------------------------------------------------------------------------------
+\profilepic{Jonh.jpg}
 
-% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+\cvname{Jonathan Petit} 
+\cvjobtitle{Industrial engineer/ \\ 1st Master} 
 
-\profilepic{Jonh.jpg} % Profile picture
+\cvdate{16 Mars 1995} 
+\cvaddress{Rue du blanc-ry, \newline 1340 Ottignies} 
+\cvnumberphone{+32 475268733} 
+\cvsite{JonathanPetit}
+\cvlinkedin{jonathan-petit16}
+\cvmail{petit.jonathan16@gmail.com}
 
-\cvname{Jonathan Petit} % Your name
-\cvjobtitle{Industrial engineer/ \\ 1st Master} % Job title/career
-
-\cvdate{16 Mars 1995} % Date of birth
-\cvaddress{Rue du blanc-ry, \newline 1340 Ottignies} % Short address/location, use \newline if more than 1 line is required
-\cvnumberphone{+32 475268733} % Phone number
-\cvsite{JonathanPetit} % Personal website
-\cvlinkedin{jonathan-petit16} % Personal website
-\cvmail{petit.jonathan16@gmail.com} % Email address
-
-
-
-%----------------------------------------------------------------------------------------
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	 ABOUT ME
-%----------------------------------------------------------------------------------------
-
 \aboutme{}
-%----------------------------------------------------------------------------------------
-%	 SKILLS
-%----------------------------------------------------------------------------------------
 
-% Skill bar section, each skill must have a value between 0 an 6 (float)
 \skills{{Docker/1},{Git/3},{LATEX, SQL/5}, {GoLang, C/2}, {PhP, Javascript, HTML, CSS/3}, {Java, C\#, SWIFT/4}, {Python/5}}
 
-%------------------------------------------------
-
-% Skill text section, each skill must have a value between 0 an 6
 \skillstext{}
 
-%----------------------------------------------------------------------------------------
+\makeprofile 
 
-\makeprofile % Print the sidebar
-
-%----------------------------------------------------------------------------------------
-%	 EDUCATION
-%----------------------------------------------------------------------------------------
 
 \section{Education}
 
-\begin{twenty} % Environment for a list with descriptions
+\begin{twenty} 
 	\twentyitem{2008-2013}{High School}{College Notre dame des Hayeffes, Mont-Saint-Guibert}{Specialization in mathematics and sciences}
 	\twentyitem{2013-2018}{Bachelor in industry science}{ECAM, Brussels}{Computer and electrical science}
 	\twentyitem{2018-...}{Master in industry science}{ECAM, Brussels}{Computer software engeneering}\\
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+
 \end{twenty}
 
-%----------------------------------------------------------------------------------------
-%	 PUBLICATIONS
-%----------------------------------------------------------------------------------------
+
 \section{Work Experience}
 
 \begin{twenty}
     \twentyitem{2017}{Cra-W}{Intership}{Participation in development of a WEB application. Programming backend in Python (Django framework) and Javascript. Frontend with HTML and CSS}\\
 \end{twenty}
 
+
 \section{Projets}
 
-\begin{twentyshort} % Environment for a short list with no descriptions
+\begin{twentyshort} 
     \twentyitemshort{2017}{Participation in Eurobot competition with ECAM especially in object detection.}\\
 	\twentyitemshort{2018}{Participation in the development in Swift of a mobile app allowing handicapped people to do visual and vocal exercices} \\
 	\twentyitemshort{Since 2018}{Personnal project of a mobile application for orders in restaurant. This application is for a scout event. The orders should be send in the kitchen and the waiter take a notification when the order is ready. The API is written in GoLang and the mobile app in SWIFT.}\\
 	\twentyitemshort{Since 2019}{Participation of a delivery drone projet particulary in the parts of GPS and pathfinding.}\\
 \end{twentyshort}
 
-\section{Student Job}
 
+\section{Student Job}
 	
-\begin{twenty} % Environment for a list with descriptions
+\begin{twenty} 
     \twentyitem{2013}{Cra-W, Unit soil fertility and water protection}{Student job}{Multiple tests on wheat samples to determine the characteristics of grounds.}
 \end{twenty}
 
-\begin{twenty} % Environment for a list with descriptions
+\begin{twenty} 
     \twentyitem{Since 2019}{Denali, Outdoor events}{Student job}{Team leader in outdoor events. Management and coordination during event days.}\\
 \end{twenty}
 
 
-
-
-
-
 \section{Languages}
 
-\begin{twentyshort} % Environment for a short list with no descriptions
+\begin{twentyshort} 
 	\twentyitemshort{French}{Native language}
 	\twentyitemshort{English}{Intermediate level (B1 level)}
 	\twentyitemshort{Dutch}{Basic level}\\
@@ -132,33 +96,10 @@
 
 \section{Interests}
 
-\begin{twentyshort} % Environment for a short list with no descriptions
+\begin{twentyshort} 
     \twentyitemshort{Computer science}{Self-educated}
 	\twentyitemshort{Football}{Goalkeeper during 13 years}
 	\twentyitemshort{Scout}{Scout leader since 6 years especially in charge of accounting. Organizer of many events with more than 500 people.}
 \end{twentyshort}
-
-
-%----------------------------------------------------------------------------------------
-%	 SECOND PAGE EXAMPLE
-%----------------------------------------------------------------------------------------
-
-%\newpage % Start a new page
-
-%\makeprofile % Print the sidebar
-
-%\section{Other information}
-
-%\subsection{Review}
-
-%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
-
-%\section{Other information}
-
-%\subsection{Review}
-
-%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
-
-%----------------------------------------------------------------------------------------
 
 \end{document} 
