@@ -1,5 +1,4 @@
 # petitjonathan-cv
-My own cv
 
 Based on:
 
